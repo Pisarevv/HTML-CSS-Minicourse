@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav {
+    background-color: #234465;
+    padding: 15px;
+}
+nav li {
+    text-align: center;
+    padding: 0 15px;
+    display: inline-block;  
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+}
