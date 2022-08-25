@@ -1,0 +1,8 @@
+table, td , th{
+    border: 1px solid black;
+    margin: 1px;
+    padding: 3px;
+}
+#tableFooter{
+    text-align: right;
+}
