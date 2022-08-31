@@ -1,0 +1,31 @@
+nav{
+    
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+ul{
+    margin-top: 0px;
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+    background-color: gainsboro;
+
+}
+ul li{
+    display: list-item;
+    padding:  15px 50px;
+    font-size: 25px;
+}
+
+li:hover{
+    margin:  5px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-topright:2px;
+  border-radius:2px 2px;
+  background-color: rgb(27, 160, 98);
+}
+a{
+    text-decoration: none;
+}
