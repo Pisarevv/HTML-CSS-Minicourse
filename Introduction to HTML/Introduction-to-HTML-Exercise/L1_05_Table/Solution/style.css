@@ -1,0 +1,15 @@
+table,th,td {
+    border-collapse: collapse;
+
+    border: 1px solid;
+    padding: 5px;
+    text-align: center;
+}
+td#right
+{
+    text-align: right;
+}
+td#total{
+    text-align: right;
+}
+
