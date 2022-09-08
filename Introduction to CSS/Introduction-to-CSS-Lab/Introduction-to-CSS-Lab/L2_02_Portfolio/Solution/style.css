@@ -39,7 +39,7 @@ section{
 
 section#left{
     text-align: left;
-    margin-left: 13rem;
+    margin-left: 16.6rem;
     width: 30%;
     height: 50%;
     background-color: #555c6f;
@@ -54,10 +54,27 @@ section#left p{
     padding-bottom: 15px;
 }
 
-section#left p:last-child{
+section#left p:nth-child(5){
     padding-bottom: 50px;
 }
 
 section#left ul li{
     display: inline-block;
+    padding: 10px;
+}
+
+section#left ul li:last-child{
+
+    padding-bottom: 150px;
+}
+
+section#right {
+    text-align: left;
+    margin-top: none;
+    width: 41.65%;
+    position: absolute;
+    top: 136px;
+    right: 30;
+    background-color: #01BDBE;
+    color: white;
 }
