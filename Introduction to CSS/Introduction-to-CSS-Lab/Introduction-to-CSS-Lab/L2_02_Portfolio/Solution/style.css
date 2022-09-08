@@ -77,4 +77,25 @@ section#right {
     right: 30;
     background-color: #01BDBE;
     color: white;
+    bottom: 200px;
+}
+
+section#right h2{
+    padding: 10px;
+    width: 20%;
+    padding-left: 30px;
+}
+
+section#right p{
+    padding: 30px;
+    width: 300px;
+}
+
+section#right article#right img{
+    position: absolute;
+    top: 136px;
+    right: 100px;
+    width: 200px;
+    height: 200px;
+    border:5px solid white ;
 }
